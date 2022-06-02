@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0%;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background:black;
+    color: white;
+    font-family: fantasy;
+}
+
+.banner{
+        display:flex;
+        height:80vh;
+        width:100%;
+        background-image:url('/Harry_Potter_Challenge/images/banner.jpg');
+        background-size: cover;
+        background-position:center;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        margin: auto;
+
+    }
+
+.banner-text h1{
+font-size: 54px;
+text-align: center;
+color: whitesmoke;
+font-family: fantasy;
+
+    }
+
+    nav a {
+        color: #e53170;
+         }
+    nav a:hover {
+         color: blueviolet;
+
+         }
+        
+    nav{
+display: flex;
+align-items: center;
+justify-content:space-evenly;
+width: 100%;
+height:25px;
+font-size:20px;
+margin: 10px 0;
+color: crimson;
+
+    }
+
+    nav ul{
+display: flex;
+list-style:none;
+color: crimson;
+
+    }
+
+    nav li{
+        padding: 0 5vw;
+        color: crimson;
+
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100vw;
+    }
+    
+    .title {
+        order: 2;
+        margin: 10px;
+        padding: 10px;
+        width: 30vw;
+    }
+
+    .image {
+    order: 2;
+    margin: 10px;
+    padding: 10px;
+    width: 30vw;
+    
+    }
+
+h3{
+font-family: fantasy;
+text-align: center;
+color: crimson;
+font-size: 3vw;
+
+}
+.MoreInfo p{
+    text-align: center;
+    margin: 50px;
+}
+
+.testimonials{
+    margin: 50px;
+    text-align: center;
+    }
+.testimonials h1{
+    font-size: 32px;
+}
+
+
+
+title{
+    font-size: large;
+    
+    
+    }
+    
+    h1{
+    font-family: fantasy;
+    font-weight: 200;
+    position: relative;
+    text-align: center;
+    }
+    
+    h2{
+        font-family: fantasy;
+        position: relative;
+        text-align: center;
+        color: blueviolet;
+        }
+
+    img{
+        width: 35vw; 
+        
+        }
+
+    p {
+        padding: 5px;
+        margin: 20px;
+        width: auto;
+    }
+     
+
