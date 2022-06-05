@@ -15,7 +15,7 @@ body{
         display:flex;
         height:80vh;
         width:100%;
-        background-image:url('/Harry_Potter_Challenge/images/banner.jpg');
+        background-image:url('/images/banner.jpg');
         background-size: cover;
         background-position:center;
         justify-content: center;
@@ -88,13 +88,6 @@ color: crimson;
     
     }
 
-h3{
-font-family: fantasy;
-text-align: center;
-color: crimson;
-font-size: 3vw;
-
-}
 .MoreInfo p{
     text-align: center;
     margin: 50px;
@@ -111,9 +104,7 @@ font-size: 3vw;
 
 
 title{
-    font-size: large;
-    
-    
+    font-size: 6vw;
     }
     
     h1{
@@ -121,6 +112,7 @@ title{
     font-weight: 200;
     position: relative;
     text-align: center;
+    font-size: 5vw;
     }
     
     h2{
@@ -128,6 +120,14 @@ title{
         position: relative;
         text-align: center;
         color: blueviolet;
+        font-size: 4vw;
+        }
+
+     h3{
+            font-family: fantasy;
+            text-align: center;
+            color: crimson;
+            font-size: 3vw;
         }
 
     img{
